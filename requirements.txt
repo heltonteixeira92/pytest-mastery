@@ -12,3 +12,4 @@ pytest-django==4.5.2
 pytz==2022.6
 sqlparse==0.4.3
 tomli==2.0.1
+pytest-factoryboy-2.5.0
