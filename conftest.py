@@ -10,9 +10,11 @@ from django.contrib.auth.models import User
 
 
 from pytest_factoryboy import register
-from tests.factories import UserFactory
+from tests.factories import UserFactory, ProductFactory, CategoryFactory
 
 register(UserFactory)
+register(CategoryFactory)
+register(ProductFactory)
 
 
 @pytest.fixture

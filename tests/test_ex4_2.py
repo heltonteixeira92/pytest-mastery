@@ -13,6 +13,7 @@ from django.contrib.auth.models import User
 #     assert True
 
 
-def test_new_user(new_user1):
-    print(new_user1.username)
-    assert True
+# Using Factory Boy and Faker
+# def test_new_user(new_user1):
+#     print(new_user1.username)
+#     assert True
